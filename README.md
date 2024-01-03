@@ -91,6 +91,13 @@ picture {
   --clr-accent-300: hsl(358, 72%, 65%);
   --clr-accent-400: hsl(358, 72%, 50%);
   --clr-accent-500: hsl(358, 72%, 35%);
+
+  /* --clr-primary-400: 263 55% 52%;
+  --clr-secondary-400: 217 19% 35%;
+  --clr-secondary-500: 219 29% 14%;
+  --clr-neutral-100: 0 0% 100%;
+  --clr-neutral-200: 210 46% 95%;
+  --clr-neutral-300: 0 0% 81%; */
 }
 
 .site-title {
@@ -104,5 +111,36 @@ picture {
   line-height: 1.1;
 }
 
+```
+
+
+#### html5 semantic tags style
+
+`https://github.com/kevin-powell/reponsive-web-design-bootcamp/blob/master/Module%202-%20A%20simple%20life/normalize.css` <br>
+`https://github.com/kevin-powell/css-demystified-course-material/tree/main/module-4/04-article-challenge-1` <br>
+
+
+```css
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+figcaption,
+figure,
+main {
+
+  display: block;
+}
+
+audio,
+video {
+  display: inline-block;
+}
 
 ```
